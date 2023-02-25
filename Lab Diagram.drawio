@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T14:35:25.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="eaH33RKgP2TZYq4HFHgF" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T14:46:33.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="FsRj4ZxbdnqIYiODZjp5" version="20.8.23" type="github">
   <diagram name="Page-1" id="8kLWx7mdblNUVvPbbAvW">
-    <mxGraphModel dx="2294" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2835" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="URxYNGc6Y4Ne9e4dtN-q-19" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="365" y="596" width="60" height="130" as="geometry" />
+          <mxGeometry x="361" y="596" width="60" height="130" as="geometry" />
         </mxCell>
         <mxCell id="URxYNGc6Y4Ne9e4dtN-q-26" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" edge="1" parent="1" target="D5WEuP7RKEWB0JZD9iPH-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -161,11 +161,21 @@
             <mxPoint x="400" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-33" value="" style="strokeWidth=4;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;shadow=0;strokeColor=#9673a6;fillColor=#e1d5e7;gradientDirection=east;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="253" width="199.5" height="377" as="geometry" />
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-46" value="Legend" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#FFD966;fillColor=default;gradientColor=none;gradientDirection=east;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="490" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-34" value="" style="strokeWidth=4;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;shadow=0;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientDirection=east;flipH=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="73" width="304.5" height="620" as="geometry" />
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-47" value="- Logs sent to Splunk&#xa;- Client connection to Suricata&#xa;- Ansible control node to clients&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;shadow=0;strokeWidth=4;" vertex="1" parent="URxYNGc6Y4Ne9e4dtN-q-46">
+          <mxGeometry y="30" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-51" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;strokeColor=#6c8ebf;strokeWidth=3;entryX=0.485;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;" edge="1" parent="1" target="URxYNGc6Y4Ne9e4dtN-q-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="710" as="sourcePoint" />
+            <mxPoint x="680" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="710" />
+              <mxPoint x="710" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
