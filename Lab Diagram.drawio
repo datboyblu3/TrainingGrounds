@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T14:50:36.519Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="WMTUGfTamtKpzUGHJXJM" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T14:51:44.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="9Wkri6MlNW5-zW_80D7_" version="20.8.23" type="github">
   <diagram name="Page-1" id="8kLWx7mdblNUVvPbbAvW">
-    <mxGraphModel dx="2072" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3119" dy="2397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,13 +161,7 @@
             <mxPoint x="400" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-46" value="Legend" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#FFD966;fillColor=default;gradientColor=none;gradientDirection=east;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="490" width="310" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-47" value="- Logs sent to Splunk&#xa;- Client connection to Suricata&#xa;- Ansible control node to clients&#xa;- Suricata to Ansible control node&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=18;verticalAlign=top;resizable=0;rotatable=0;part=1;shadow=0;strokeWidth=4;fontStyle=1" vertex="1" parent="URxYNGc6Y4Ne9e4dtN-q-46">
-          <mxGeometry y="30" width="310" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-51" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;strokeColor=#6c8ebf;strokeWidth=3;entryX=0.485;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;" edge="1" parent="1" target="URxYNGc6Y4Ne9e4dtN-q-24">
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-51" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;strokeColor=#6c8ebf;strokeWidth=3;entryX=0.485;entryY=0.419;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;fontColor=#7EA6E0;" edge="1" parent="1" target="URxYNGc6Y4Ne9e4dtN-q-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="425" y="710" as="sourcePoint" />
             <mxPoint x="680" y="240" as="targetPoint" />
