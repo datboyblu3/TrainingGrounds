@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T13:53:59.648Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BNp-MfO0oG8XOf55Y7Ub" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T13:56:17.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="vZYI20duHmdcJfQAU86J" version="20.8.23" type="github">
   <diagram name="Page-1" id="8kLWx7mdblNUVvPbbAvW">
-    <mxGraphModel dx="1444" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1588" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,18 +49,6 @@
             <mxPoint x="527.5" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D5WEuP7RKEWB0JZD9iPH-22" value="Ansible Control Node" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="250" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="D5WEuP7RKEWB0JZD9iPH-23" value="Deploys IP Tables and other ansible scripts&lt;br&gt;&lt;ul&gt;&lt;li&gt;Logs will be sent to Splunk&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="D5WEuP7RKEWB0JZD9iPH-22" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="D5WEuP7RKEWB0JZD9iPH-26" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="460" y="250" as="sourcePoint" />
-            <mxPoint x="640" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="D5WEuP7RKEWB0JZD9iPH-31" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;endSize=8;startSize=8;fontColor=#000000;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="480" as="sourcePoint" />
@@ -94,15 +82,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="r-djEIy74ulVzaPChZWc-18" value="Suricata IDS/IPS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="130" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="r-djEIy74ulVzaPChZWc-19" value="Deploys network intrusion rules using snort and zeek data&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="r-djEIy74ulVzaPChZWc-18" vertex="1">
-          <mxGeometry y="30" width="140" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="r-djEIy74ulVzaPChZWc-22" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="330" y="140" width="290" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="URxYNGc6Y4Ne9e4dtN-q-1" value="Splunk" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="-10" width="140" height="80" as="geometry" />
         </mxCell>
@@ -122,21 +101,42 @@
           <mxGeometry x="130" y="900" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="D5WEuP7RKEWB0JZD9iPH-1" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
-          <mxGeometry x="384.00444444444446" y="156.66666666666669" width="53.33333333333334" height="113.33333333333334" as="geometry" />
-        </mxCell>
-        <mxCell id="r-djEIy74ulVzaPChZWc-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
-          <mxGeometry x="284.00444444444446" y="156.66666666666669" width="53.33333333333334" height="113.33333333333334" as="geometry" />
-        </mxCell>
-        <mxCell id="r-djEIy74ulVzaPChZWc-23" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="331.56" y="150" as="sourcePoint" />
-            <mxPoint x="331.56" y="90" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="350.00444444444446" y="156.66666666666669" width="53.33333333333334" height="113.33333333333334" as="geometry" />
         </mxCell>
         <mxCell id="r-djEIy74ulVzaPChZWc-24" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="391.56" y="150" as="sourcePoint" />
-            <mxPoint x="391.56" y="90" as="targetPoint" />
+            <mxPoint x="376.24" y="150" as="sourcePoint" />
+            <mxPoint x="376.24" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-19" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="337.34" y="630" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="397.5" y="640" width="430" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r-djEIy74ulVzaPChZWc-18" value="Suricata IDS/IPS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="URxYNGc6Y4Ne9e4dtN-q-20" vertex="1">
+          <mxGeometry x="290" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r-djEIy74ulVzaPChZWc-19" value="Deploys network intrusion rules using snort and zeek data&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="r-djEIy74ulVzaPChZWc-18" vertex="1">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r-djEIy74ulVzaPChZWc-22" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;fontColor=#000000;" parent="URxYNGc6Y4Ne9e4dtN-q-20" vertex="1">
+          <mxGeometry y="10" width="290" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="400" y="160" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5WEuP7RKEWB0JZD9iPH-22" value="Ansible Control Node" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="URxYNGc6Y4Ne9e4dtN-q-21" vertex="1">
+          <mxGeometry x="160" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D5WEuP7RKEWB0JZD9iPH-23" value="Deploys IP Tables and other ansible scripts&lt;br&gt;&lt;ul&gt;&lt;li&gt;Logs will be sent to Splunk&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="D5WEuP7RKEWB0JZD9iPH-22" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D5WEuP7RKEWB0JZD9iPH-26" value="" style="endArrow=none;html=1;rounded=0;" parent="URxYNGc6Y4Ne9e4dtN-q-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
