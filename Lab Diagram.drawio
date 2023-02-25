@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T14:07:37.118Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="H1iexXMxHXaK147SnrXt" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T14:13:36.832Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="OtlNQQ1fo5FREd7XJUn2" version="20.8.23" type="github">
   <diagram name="Page-1" id="8kLWx7mdblNUVvPbbAvW">
-    <mxGraphModel dx="2614" dy="2109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3119" dy="2397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="D5WEuP7RKEWB0JZD9iPH-6" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="159.5" y="403" width="430" height="70" as="geometry" />
+          <mxGeometry x="159.5" y="403" width="760.5" height="257" as="geometry" />
         </mxCell>
         <mxCell id="D5WEuP7RKEWB0JZD9iPH-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="D5WEuP7RKEWB0JZD9iPH-6" vertex="1">
           <mxGeometry width="100" height="70" as="geometry" />
@@ -24,6 +24,15 @@
         </mxCell>
         <mxCell id="r-djEIy74ulVzaPChZWc-27" value="Debian" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="D5WEuP7RKEWB0JZD9iPH-6" vertex="1">
           <mxGeometry x="354" y="16" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=9;size=20;indent=5;shadow=0;strokeColor=#990000;fillColor=default;gradientColor=#CC0000;gradientDirection=east;perimeterSpacing=0;opacity=10;" vertex="1" parent="D5WEuP7RKEWB0JZD9iPH-6">
+          <mxGeometry x="-229.5" y="-483" width="990" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-1" value="Splunk" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="D5WEuP7RKEWB0JZD9iPH-6">
+          <mxGeometry x="460.5" y="-433" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-2" value="Will gather logs and alerts from all devices. And ingest Sigma rules" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="URxYNGc6Y4Ne9e4dtN-q-1">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="D5WEuP7RKEWB0JZD9iPH-8" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="1" vertex="1">
           <mxGeometry x="329.5" y="-20" width="90" height="100" as="geometry" />
@@ -82,12 +91,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-1" value="Splunk" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="-10" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-2" value="Will gather logs and alerts from all devices. And ingest Sigma rules" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="URxYNGc6Y4Ne9e4dtN-q-1">
-          <mxGeometry y="30" width="140" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="URxYNGc6Y4Ne9e4dtN-q-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="20" as="sourcePoint" />
@@ -125,7 +128,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="URxYNGc6Y4Ne9e4dtN-q-22" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="350" y="570" width="490.16" height="130" as="geometry" />
+          <mxGeometry x="350" y="610" width="490.16" height="130" as="geometry" />
         </mxCell>
         <mxCell id="URxYNGc6Y4Ne9e4dtN-q-19" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;shadow=0;" vertex="1" parent="URxYNGc6Y4Ne9e4dtN-q-22">
           <mxGeometry width="60" height="130" as="geometry" />
@@ -139,11 +142,18 @@
         <mxCell id="r-djEIy74ulVzaPChZWc-19" value="Suricata will act as the gateway into the VPC" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="r-djEIy74ulVzaPChZWc-18" vertex="1">
           <mxGeometry y="30" width="140" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-26" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=3;" edge="1" parent="r-djEIy74ulVzaPChZWc-18" target="D5WEuP7RKEWB0JZD9iPH-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290.1600000000001" as="sourcePoint" />
+            <mxPoint x="79.83999999999992" y="-550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" />
+              <mxPoint x="150" y="-560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="r-djEIy74ulVzaPChZWc-22" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;fontColor=#000000;" parent="URxYNGc6Y4Ne9e4dtN-q-20" vertex="1">
           <mxGeometry y="10" width="290" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="URxYNGc6Y4Ne9e4dtN-q-24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=9;size=20;indent=5;shadow=0;strokeColor=#990000;fillColor=default;gradientColor=#CC0000;gradientDirection=east;perimeterSpacing=0;opacity=10;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="-110" width="990" height="740" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
