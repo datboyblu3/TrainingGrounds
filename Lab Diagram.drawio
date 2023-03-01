@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T01:24:23.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Nlp5F6rESrVgng2KFZ14" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-01T02:37:25.587Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="8rTubpS6nFXJlz5HjYC_" version="20.8.23" type="github">
   <diagram name="Page-1" id="8kLWx7mdblNUVvPbbAvW">
-    <mxGraphModel dx="2072" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2438" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,6 +173,12 @@
         </mxCell>
         <mxCell id="URxYNGc6Y4Ne9e4dtN-q-53" value="" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;shadow=0;strokeColor=#9673a6;fontSize=20;fillColor=#e1d5e7;gradientDirection=east;" parent="1" vertex="1">
           <mxGeometry x="-40" y="728" width="870" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fePASw4uRT5dGs4m6mN8-1" value="Splunk" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="870" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fePASw4uRT5dGs4m6mN8-2" value="Will gather logs and alerts from all devices. And ingest Sigma rules" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="fePASw4uRT5dGs4m6mN8-1">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
