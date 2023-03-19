@@ -29,3 +29,14 @@
 3) The C2 Server sends Stage 2 back to the Victim Workstation
 4) Stage 2 is loaded into memory on the Victim Workstation 
 5) C2 Beaconing Initializes, and the Red Teamer/Threat Actors can engage with the Victim on the C2 Server.
+
+
+### Domain Fronting
+
+- Domain Fronting is a technique used to hide C2 frameworks in plain sight
+- It utilizes a known good host to communicate with the C2 server
+
+![cd1ea19e9e0d7bef0d8ec6615061335b](https://user-images.githubusercontent.com/95729902/226148093-81253987-fd5e-40c4-92b4-7e930a74026e.png)
+
+
+
